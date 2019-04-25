@@ -13172,11 +13172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas_Silva5\\source\\repos\\ProductsAPI\\ProductsAPI\\ProductsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas_Silva5\\source\\repos\\ProductsAPI\\ProductListing\\ProductsAPI\\ProductsAPI.csproj",
       "projectName": "ProductsAPI",
-      "projectPath": "C:\\Users\\Lucas_Silva5\\source\\repos\\ProductsAPI\\ProductsAPI\\ProductsAPI.csproj",
+      "projectPath": "C:\\Users\\Lucas_Silva5\\source\\repos\\ProductsAPI\\ProductListing\\ProductsAPI\\ProductsAPI.csproj",
       "packagesPath": "C:\\Users\\Lucas_Silva5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas_Silva5\\source\\repos\\ProductsAPI\\ProductsAPI\\obj\\",
+      "outputPath": "C:\\Users\\Lucas_Silva5\\source\\repos\\ProductsAPI\\ProductListing\\ProductsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
