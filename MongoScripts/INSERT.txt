@@ -1,0 +1,5 @@
+db.Products.insertMany([
+{'Description':'Teclado','Price':54.93,'Category':'Computers','Quantity':20}, 
+{'Description':'Mouse','Price':43.15,'Category':'Computers','Quantity':10},
+{'Description':'Monitor','Price':43.15,'Category':'Computers','Quantity':5}
+])

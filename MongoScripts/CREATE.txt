@@ -1,0 +1,7 @@
+mongod --dbpath <data_directory_path>
+
+mongo
+
+use Products
+
+db.createCollection('Products')
