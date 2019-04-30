@@ -10,7 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using MongoDB.Driver;
+using ProductsAPI.Models;
 using ProductsAPI.Services;
+using ProductsAPI.ServicesContract;
 
 namespace ProductsAPI
 {
@@ -26,7 +29,9 @@ namespace ProductsAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ProductService>();
+            services.AddSingleton(new MongoClient(Configuration.GetConnectionString("Products").ToString()));
+            services.AddScoped<ProductsMongoDBContext>();
+            services.AddScoped<IProductService,ProductService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

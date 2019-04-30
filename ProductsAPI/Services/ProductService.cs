@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 using ProductsAPI.Models;
+using ProductsAPI.ServicesContract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,17 +9,18 @@ using System.Threading.Tasks;
 
 namespace ProductsAPI.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
-        // TODO - CRIAR UMA CONTRATO PRA SERVICE
         private readonly IMongoCollection<Product> _products;
+        private readonly ProductsMongoDBContext _productsMongoDBContext;
 
         // TODO -ABSTRAIR A CONEXÃO COM O BANCO
-        public ProductService(IConfiguration config)
+        public ProductService(ProductsMongoDBContext productsMongoDBContext)
         {
-            var client = new MongoClient(config.GetConnectionString("Products"));
-            var database = client.GetDatabase("Products");
-            _products = database.GetCollection<Product>("Products");
+            //var client = new MongoClient(config.GetConnectionString("Products"));
+            //var database = client.GetDatabase("Products");
+            //_products = database.GetCollection<Product>("Products");
+            _products = productsMongoDBContext.Database.GetCollection<Product>("Products");
         }
 
         public List<Product> Get()

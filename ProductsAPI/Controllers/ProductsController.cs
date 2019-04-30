@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ProductsAPI.Models;
 using ProductsAPI.Services;
+using ProductsAPI.ServicesContract;
 
 namespace ProductsAPI.Controllers
 {
@@ -12,16 +13,15 @@ namespace ProductsAPI.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly ProductService _productService;
+        private readonly IProductService _productService;
 
-        public ProductsController(ProductService productService)
+        public ProductsController(IProductService productService)
         {
             _productService = productService;
         }
 
         [HttpGet]
         public ActionResult<List<Product>> Get()
-
         {
             return _productService.Get();
         }
