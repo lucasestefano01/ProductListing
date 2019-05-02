@@ -26,3 +26,16 @@ C:\Users\Lucas_Silva5\source\repos\ProductsAPI\ProductListing\ProductsAPI\obj\De
 C:\Users\Lucas_Silva5\source\repos\ProductsAPI\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Lucas_Silva5\source\repos\ProductsAPI\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.dll
 C:\Users\Lucas_Silva5\source\repos\ProductsAPI\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.pdb
+C:\ProductListing\ProductsAPI\bin\Debug\netcoreapp2.1\ProductsAPI.deps.json
+C:\ProductListing\ProductsAPI\bin\Debug\netcoreapp2.1\ProductsAPI.runtimeconfig.json
+C:\ProductListing\ProductsAPI\bin\Debug\netcoreapp2.1\ProductsAPI.runtimeconfig.dev.json
+C:\ProductListing\ProductsAPI\bin\Debug\netcoreapp2.1\ProductsAPI.dll
+C:\ProductListing\ProductsAPI\bin\Debug\netcoreapp2.1\ProductsAPI.pdb
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.csproj.CoreCompileInputs.cache
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.RazorAssemblyInfo.cache
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.RazorAssemblyInfo.cs
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.AssemblyInfoInputs.cache
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.AssemblyInfo.cs
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.RazorTargetAssemblyInfo.cache
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.dll
+C:\ProductListing\ProductsAPI\obj\Debug\netcoreapp2.1\ProductsAPI.pdb

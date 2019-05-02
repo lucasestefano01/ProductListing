@@ -1,3 +1,11 @@
 <h2>
-  Products uahsua
+  Products List:
 </h2>
+
+<div *ngFor="let p of products">
+  <ul>
+    <li >
+      {{p.productDescription}} - {{p.price}} - {{p.category}} - {{p.quantity}}
+    </li>
+  </ul>
+</div>
