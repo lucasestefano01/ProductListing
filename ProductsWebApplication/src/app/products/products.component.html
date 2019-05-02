@@ -1,11 +1,21 @@
 <h2>
-  Products List:
+  Products:
 </h2>
 
-<div *ngFor="let p of products">
-  <ul>
-    <li >
-      {{p.productDescription}} - {{p.price}} - {{p.category}} - {{p.quantity}}
-    </li>
-  </ul>
-</div>
+<dx-data-grid 
+    id="gridContainer"
+    [dataSource]="products"
+    [showBorders]="true">    
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager 
+        [showPageSizeSelector]="true"
+        [allowedPageSizes]="[5, 10, 20]"
+        [showInfo]="true">
+    </dxo-pager>
+    
+    <dxi-column dataField="id"></dxi-column>
+    <dxi-column dataField="productDescription"></dxi-column>
+    <dxi-column dataField="price"></dxi-column>
+    <dxi-column dataField="category"></dxi-column>
+    <dxi-column dataField="quantity"></dxi-column>
+</dx-data-grid>
